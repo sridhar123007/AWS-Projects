@@ -1,0 +1,4 @@
+openssl x509 -in C:\Users\VSES006\Desktop\Sridhar\AWS_folders\AWS_IoT_nodemcu\a9adf41bf9-certificate.pem.crt -out cert.der -outform DER
+ 
+openssl rsa -in C:\Users\VSES006\Desktop\Sridhar\AWS_folders\AWS_IoT_nodemcu\a9adf41bf9-private.pem.key  -out private.der -outform DER
+openssl x509 -in C:\Users\VSES006\Desktop\Sridhar\AWS_folders\AWS_IoT_nodemcu\1.pem -out ca.der -outform DER
